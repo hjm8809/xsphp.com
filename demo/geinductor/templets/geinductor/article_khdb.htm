@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/main.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/style/picture.css" rel="stylesheet" media="screen" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript"  src="{dede:global.cfg_templets_skin/}/js/jquery.lightbox.js"></script>
+<script type="text/javascript">
+        $(function () {
+            $('#gallery a').lightBox();
+        });
+    </script>
+</head>
+<body>
+<!-- head -->
+{dede:include filename="head.htm"/}
+<!-- /head -->
+<!--banner-->
+<div class="container banner"> <img src="{dede:global.cfg_templets_skin/}/images/banner.jpg" alt="五金弹簧厂，压缩弹簧生产厂家，扭转弹簧供应商，拉伸弹簧定制，佛山市顺德区奥丰弹簧有限公司" style="display:none" onload="this.style.display='block'"/> </div>
+<div class="main">
+  <!--左边-->
+    
+
+<div class="left"> 
+   
+  <div class="part">
+<!-- 应显示产品对应的类目,待改善 -->
+<h2>客户代表</h2>
+
+   <ul>
+    {dede:arclist row='10' titlelen='44'}  
+      <li><a href="[field:arcurl/]">[field:title/]</a></li>
+    {/dede:arclist}    
+    </ul>
+  </div> 
+<!-- 最新文章列表 -->
+{dede:include filename="left_zxwz.inc.htm"/}
+<!-- /最新文章列表 -->
+<!-- 联系我们 -->   
+{dede:include filename="left_lxwm.inc.htm"/}
+<!-- /联系我们 --> 
+
+	  
+   </div>
+
+
+  <!--右边-->
+<div class="right">
+    <div class="location"> 
+      <div class="lt">
+        <strong>当前位置</strong>:
+        {dede:field name='position'/}         
+      </div> 
+    </div>    
+    <div class="content">
+      <div class="title">
+        <h1>{dede:field.title/}</h1>
+      </div>
+      <!-- info -->   
+        <div class="info">
+      <span>时间:</span>{dede:field.pubdate function="MyDate('Y-m-d H:i',@me)"/}<span>来源:</span>{dede:field.source/}<span>作者:</span>{dede:field.writer/}
+      </div>    
+       <div class="article">
+          {dede:field.body/}
+       </div>
+
+    </div>
+     <!--上一篇，下一篇-->
+     <div class="prenext list">
+        <ul>
+
+          <li class="next">{dede:prenext get='pre'/}</li>
+          <li class="pre">{dede:prenext get='next'/}</li>
+        </ul>
+      </div>
+<!-- 其它客户代表 -->
+     <div class="correlation">
+      <h2>其它客户代表</h2>
+        <ul class="img">
+          {dede:arclist orderby ='rand' row='4' }
+          <li class="area">
+            <a href="[field:arcurl/]"><img src='/demo/[field:picname/]' border='0' width='120' height='120' alt='[field:fulltitle/]'></a>
+            <p><a href="[field:arcurl/]">[field:title/]</a></p>
+          </li>
+          {/dede:arclist}
+       </ul>
+     </div>  
+<!-- /其它客户代表 -->
+
+<!--选项卡JS-->
+<script type="text/javascript">
+    $(function () {
+        var $div_li = $("div.ttArea ul li");
+        $div_li.hover(function () {
+            $(this).addClass("this")
+             .siblings().removeClass("this");
+            var index = $div_li.index(this);
+            $("div.tcArea > div")
+            .eq(index).show()
+            .siblings().hide();
+        }).hover(function () {
+            $(this).addClass("hover");
+        }, function () {
+            $(this).removeClass("hover");
+        })
+   
+    })
+</script>
+<script src="/templets/default/js/picture.js" type="text/javascript"></script>
+<!--/选项卡JS-->
+</div>
+{dede:include filename="footer.htm"/}  
+
+</body>
+</html>
+

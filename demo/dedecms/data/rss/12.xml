@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>网站优化</title>
+<link>/demo/dedecms/a/wangzhanyouhua/</link>
+<description>新闻中心 / 网站优化</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2002-2011 DEDECMS. 织梦科技 版权所有 &lt;a href=http://www.dedecms.com target='_blank'&gt;Power by DedeCms&lt;/a&gt;]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[设计一个能通过校验和语义要求的网站]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_63.html</link>
+    <description><![CDATA[页面被校验通过,意思是它包含的代码没有错误(例如:忘记关闭标签);没有不合法的标签和属性(例如:表格中的高度属性heigh,在XHTML中是不合法的).校验可以通过在线的免费软件进行,大家可]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[搜索提示所带来的好处]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_62.html</link>
+    <description><![CDATA[现在搜索提示已经成了常用的应用功能,比如我们在百度里面搜索深圳,就会弹出一个下拉框,框里会有深圳网站建设等与深圳相关的提示词,为什么需要搜索提示 呢?其实,同样的搜索一段内]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网站制作中如何压缩Javascript代码]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_61.html</link>
+    <description><![CDATA[JavaScript是一种解释型语言,其所有的源代码都会被提交到客户端浏览器,因此源代码的体积会影响下载速度,这一点和编译型的语言不一样,要发送 这种情况,一种方案就是压缩JavaScript代码]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[Ajax是否有利于搜索引擎的优化]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_60.html</link>
+    <description><![CDATA[对于Ajax程序员来说,其内容并不一定是和URL一一对应的,要到达具体的内容,通过都要通过一定的Javascript函数来实现内容的展示,而搜索引擎却不会自动去调用这些函数,所以对于一些Ajax页]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[经常查看网站流量统计的意义]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_59.html</link>
+    <description><![CDATA[大家做了一个网站后，通常会加一个流量统计的工具，通过这个工具，站长们可以看到每天这个网站被访问的情况，甚至可以具体查看到被访问的人的IP地址和所在地区。 一般大家由于]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[给网站的每篇新闻一个利于优化排名优化的好标]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_58.html</link>
+    <description><![CDATA[没有流量就没办法让网站产生业绩，如果让网站流量，每位站长可以从小做起，小到每加一篇文章对新闻都会有所要求。下面迅美根据自己多年的实践经验整理一些资料给大家来学习和]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网页代码中body标签有哪里属性]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_57.html</link>
+    <description><![CDATA[body顾名思义就是网页内容的开台标签以/body结束,body标签包含定义整体文档呈现的属性,具体属性参数如下: background:定义背景图片的URL bgcolor:定义背景的颜色 leftmargin:内容的左边距像素数]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网站建设时如何进行项目调试]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_56.html</link>
+    <description><![CDATA[有时候开发的程序出现bug ,但又不能确定出现bug的代码位置,那么就需要跟踪项目运行的进程,按照代码逻辑路线检查运行一遍,这个过程就叫做调试,用VS2005进行项目调试非常简单,接下来我]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[友情链接对网站建设的影响]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_55.html</link>
+    <description><![CDATA[友情链接对网站优化的贡献是不可否定的,但是通过各方面的研究与调整,我发现一味的地添加或者交换友情链接对网站的排名影响也是非常大的.最近百度搜索引擎加大了网站的惩处,我司]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[如何利用好友情链接来推广网站]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140708_6.html</link>
+    <description><![CDATA[虽然友情链接的缺点很多,介理迅美还是想把这一个非常有用的推广介绍给大家,希望大家能好好地利用。 无论大网站，还是小网站，友情链接都少不 了。友情链接除了带来流量，提高网]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,1 @@
+<a href='[field:arcurl/]'><img src='[field:picname/]' border='0' width='120' height='120' alt='[field:fulltitle/]'></a><h3><a title="[field:fulltitle/]" href='[field:arcurl/]'>[field:title/]</a></h3><p>[field:description function="cn_substr(@me,90)"/]...<a href="[field:arcurl/]" class="a">[全部]</a></p>

@@ -1,0 +1,1 @@
+<img src="../../templets/moban/images/right[field:id/].jpg" style="padding-bottom:10px;" alt="[field:typename/]" />

@@ -1,0 +1,2 @@
+INSERT INTO `dede_admin` VALUES('1','10','geinductor','f297a57a5a743894a0e4','admin','','','0','1408434742','14.222.118.178');
+INSERT INTO `dede_admin` VALUES('2','10','geinductor2','c3949ba59abbe56e057f','admin2','','','0','1412587697','14.222.123.3');

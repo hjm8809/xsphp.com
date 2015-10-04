@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}-{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description'  function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/main.css" rel="stylesheet" media="screen" type="text/css" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/j.js" ></script>
+</head>
+<body class="list_article.htm">
+<!--头部调用 -->
+ {dede:include filename="head.htm"/}
+<!--主体内容 -->
+<div class="banner">
+<img src="{dede:global.cfg_templets_skin/}/images/banner.jpg" alt="{dede:field.title/}-{dede:global.cfg_webname/}" style="display:none" onload="this.style.display='block'"/>
+</div>
+
+<div class="main">
+  
+
+<div class="left">  
+<!-- 新闻中心-二级栏目 -->
+{dede:include filename="left_xwzx.inc.htm"/}
+<!-- /新闻中心-二级栏目 -->
+<!-- 最新文章列表 -->
+{dede:include filename="left_zxwz.inc.htm"/}
+<!-- /最新文章列表 -->
+<!-- 联系我们 -->   
+{dede:include filename="left_lxwm.inc.htm"/}
+<!-- /联系我们 -->  
+</div>
+
+  <div class="right">  
+    <div class="location"> <div class="lt"><strong>当前位置</strong>:{dede:field name='position'/}</div>	</div>		 
+    <div class="content">		
+	  <div class="news1">  
+	    {dede:field.content/}
+	  </div>	  
+	  <!-- pages -->		  
+	  <div class="dede_pages">
+	  	<ul class=pagelist>
+	  		{dede:pagelist listitem="info,index,end,pre,next,pageno,option"listsize="1"/}
+	  	</ul>
+	  </div>
+	  <!-- /pages -->		  
+   </div>	  	
+  </div>
+</div>
+<!-- 底部调用 -->
+{dede:include filename="footer.htm"/}
+<!-- /footer -->
+</body>
+</html>
+

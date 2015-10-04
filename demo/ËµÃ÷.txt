@@ -1,0 +1,4 @@
+dedecms		讯美科技 dede框架 数据库：demo_dede01
+geinductor	福鹰线圈 dede框架 数据库：demo_geinductor
+shop		服装商城 自写框架 数据库：shop
+blog		HD博客   基是THINKPH框架 数据库：blog

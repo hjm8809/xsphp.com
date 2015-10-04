@@ -1,0 +1,47 @@
+</head>
+<body>
+<!--头部-->
+	<div class='top-list-wrap'>
+		<div class='top-list' style="display:none;">
+			<ul class='l-list'>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+			</ul>
+			<ul class='r-list'>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+				<li><a href="http://www.xsphp.com" target='_blank'>XSPHP</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class='top-search-wrap'>
+		<div class='top-search'>
+			<a href="http://www.xsphp.com" target='_blank' class='logo'>
+				<img src="__PUBLIC__/Images/logo.png"/>
+			</a>
+			<div class='search-wrap'>
+				<form action="" method='get'>
+					<input type="text" name='keyword' class='search-content'/>
+					<input type="submit" name='search' value='搜索'/>
+				</form>
+			</div>
+			<a href="{:U('/'.'Admin/')}"><p style="color:white;text-align:right;">登陆</p></a>
+		</div>
+	</div>
+	<div class='top-nav-wrap'>
+		<ul class='nav-lv1'>
+			<li class='nav-lv1-li'>
+				<a href="__ROOT__" class='top-cate'>博客首页</a>
+			</li>
+			<nav limit='50' order='sort'>
+				<li class='nav-lv1-li'>
+					<a href="{:U('/c_'.$v["id"])}" class='top-cate'>{$v["name"]}</a>
+						<ul>
+					<foreach name='v["child"]' item='child' >
+							<li><a href="{:U('/c_'.$child["id"])}">{$child["name"]}</a></li>
+					</foreach>
+						</ul>
+				</li>
+			</nav>
+		</ul>
+	</div>

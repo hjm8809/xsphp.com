@@ -1,0 +1,1 @@
+INSERT INTO `dede_homepageset` VALUES('geinductor/index.htm','../index.html','0');

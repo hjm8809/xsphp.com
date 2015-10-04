@@ -1,0 +1,683 @@
+[ 2015-01-09T02:03:45+08:00 ] 203.208.60.110 /demo/blog/62.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001174s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001695s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000355s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001623s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 62 ) LIMIT 1   [ RunTime:0.000355s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000507s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000594s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000623s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020747s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000594s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000643s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-01-09T02:07:36+08:00 ] 203.208.60.115 /demo/blog/51.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000959s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.002009s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001344s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000509s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000619s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017223s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000702s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002491s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000703s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2015-01-09T02:11:11+08:00 ] 203.208.60.124 /demo/blog/58.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000985s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001479s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001359s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 58 ) LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000571s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000498s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000688s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019036s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019111s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000619s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000469s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000669s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002790s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000970s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2015-01-09T03:26:59+08:00 ] 203.208.60.113 /demo/blog/34.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001122s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001632s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001709s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 34 ) LIMIT 1   [ RunTime:0.000371s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000455s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000459s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000557s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000557s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000689s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000710s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2015-01-09T03:44:17+08:00 ] 218.30.103.52 /demo/blog/List/index/id/1/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001637s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000337s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001587s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_blog` WHERE ( `cid` IN (1) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.time AS time,blog.click AS click,blog.summary AS summary,blog.cid AS cid,cate.name AS name FROM hd_blog blog LEFT JOIN hd_cate cate ON blog.cid = cate.id WHERE ( `del` = 0 ) AND ( blog.cid IN (1) ) LIMIT 0,4   [ RunTime:0.000555s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 510 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000531s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000461s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000575s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018968s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019066s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000563s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002119s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2015-01-09T03:44:38+08:00 ] 218.30.103.52 /demo/blog/List/index/id/2/p/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000781s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001471s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001447s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_blog` WHERE ( `cid` IN (2) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.time AS time,blog.click AS click,blog.summary AS summary,blog.cid AS cid,cate.name AS name FROM hd_blog blog LEFT JOIN hd_cate cate ON blog.cid = cate.id WHERE ( `del` = 0 ) AND ( blog.cid IN (2) ) LIMIT 4,4   [ RunTime:0.000398s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 510 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000660s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000560s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020138s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020235s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000578s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000479s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000554s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002136s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000668s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2015-01-09T03:45:00+08:00 ] 218.30.103.52 /demo/blog/List/index/id/5/p/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000791s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001658s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001331s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_blog` WHERE ( `cid` IN ('11','10','9','8',5) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.time AS time,blog.click AS click,blog.summary AS summary,blog.cid AS cid,cate.name AS name FROM hd_blog blog LEFT JOIN hd_cate cate ON blog.cid = cate.id WHERE ( `del` = 0 ) AND ( blog.cid IN ('11','10','9','8',5) ) LIMIT 4,4   [ RunTime:0.000491s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 510 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000503s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000441s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000543s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017245s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000537s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002103s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000701s ]
+
+[ 2015-01-09T03:45:25+08:00 ] 218.30.103.52 /demo/blog/29.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000829s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000937s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.002125s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000352s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001926s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 29 ) LIMIT 1   [ RunTime:0.000510s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000515s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000634s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018498s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018591s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000539s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000724s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002522s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-01-09T03:45:53+08:00 ] 218.30.103.52 /demo/blog/List/index/id/4/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000901s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001987s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001598s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_blog` WHERE ( `cid` IN ('14','13','12',4) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.time AS time,blog.click AS click,blog.summary AS summary,blog.cid AS cid,cate.name AS name FROM hd_blog blog LEFT JOIN hd_cate cate ON blog.cid = cate.id WHERE ( `del` = 0 ) AND ( blog.cid IN ('14','13','12',4) ) LIMIT 0,4   [ RunTime:0.000400s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 510 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000451s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000488s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000595s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017192s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002132s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000727s ]
+
+[ 2015-01-09T04:42:46+08:00 ] 203.208.60.118 /demo/blog/41.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000970s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004351s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001812s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001603s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 41 ) LIMIT 1   [ RunTime:0.000403s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000521s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000538s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000600s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017185s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000586s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000823s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000555s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002607s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2015-01-09T05:58:33+08:00 ] 203.208.60.119 /demo/blog/45.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001406s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001578s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000978s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.002158s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000424s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001711s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 45 ) LIMIT 1   [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000630s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000488s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000593s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020280s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000729s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000515s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002723s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-01-09T07:14:21+08:00 ] 203.208.60.112 /demo/blog/37.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001991s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000364s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001587s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 37 ) LIMIT 1   [ RunTime:0.000356s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000511s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000480s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000563s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018167s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018282s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000744s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000608s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002747s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000805s ]
+
+[ 2015-01-09T07:43:10+08:00 ] 218.30.103.52 /demo/blog/List/index/id/2/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001075s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001586s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001494s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_blog` WHERE ( `cid` IN (2) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.time AS time,blog.click AS click,blog.summary AS summary,blog.cid AS cid,cate.name AS name FROM hd_blog blog LEFT JOIN hd_cate cate ON blog.cid = cate.id WHERE ( `del` = 0 ) AND ( blog.cid IN (2) ) LIMIT 0,4   [ RunTime:0.000408s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 510 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000462s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000507s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000648s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019668s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019820s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000801s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000676s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002800s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000790s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-01-09T07:43:35+08:00 ] 218.30.103.52 /demo/blog/List/index/id/5/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001680s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001627s ]
+SQL: SELECT * FROM `hd_cate` ORDER BY sort  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001382s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `hd_blog` WHERE ( `cid` IN ('11','10','9','8',5) ) AND ( `del` = 0 ) LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT blog.id AS id,blog.title AS title,blog.time AS time,blog.click AS click,blog.summary AS summary,blog.cid AS cid,cate.name AS name FROM hd_blog blog LEFT JOIN hd_cate cate ON blog.cid = cate.id WHERE ( `del` = 0 ) AND ( blog.cid IN ('11','10','9','8',5) ) LIMIT 0,4   [ RunTime:0.000749s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined offset: 1 D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\ThinkTemplate.class.php 第 510 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000680s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000505s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000875s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020930s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000845s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000671s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000433s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000847s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003106s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001134s ]
+
+[ 2015-01-09T08:30:09+08:00 ] 203.208.60.117 /demo/blog/39.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001150s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001119s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001806s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000374s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001598s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000523s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000522s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000604s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000756s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000775s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002826s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-01-09T09:43:19+08:00 ] 203.208.60.111 /demo/blog/Admin/Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001300s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+
+[ 2015-01-09T09:45:55+08:00 ] 203.208.60.123 /demo/blog/59.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001395s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001509s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001440s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001895s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000382s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001596s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 59 ) LIMIT 1   [ RunTime:0.000365s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000585s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000519s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000615s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020787s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020862s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001012s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000879s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001314s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001149s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001217s ]
+
+[ 2015-01-09T11:01:43+08:00 ] 203.208.60.116 /demo/blog/22.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+SQL: SHOW COLUMNS FROM `hd_cate` [ RunTime:0.001658s ]
+SQL: SELECT `id`,`name`,`pid` FROM `hd_cate` ORDER BY sort  [ RunTime:0.000320s ]
+SQL: SHOW COLUMNS FROM `hd_blog` [ RunTime:0.001783s ]
+SQL: SELECT * FROM `hd_blog` WHERE ( `id` = 22 ) LIMIT 1   [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 15 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 30 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+NOTIC: [2] Missing argument 2 for TagLib::parseXmlAttr(), called in D:\www\xsphp.com\demo\blog\APP\Modules\Index\TagLib\TagLibHd.class.php on line 43 and defined D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 80 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined index:  D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 91 行.
+NOTIC: [8] Undefined variable: tag D:\www\xsphp.com\demo\blog\ThinkPHP\Lib\Template\TagLib.class.php 第 92 行.
+SQL: SELECT * FROM `hd_cate` ORDER BY sort LIMIT 50   [ RunTime:0.000649s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY click DESC LIMIT 5   [ RunTime:0.000532s ]
+SQL: SELECT * FROM `hd_blog` ORDER BY time DESC LIMIT 5   [ RunTime:0.000598s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021295s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000728s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000540s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000781s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000698s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002962s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000829s ]
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>帮助中心</title>
+<link>/demo/dedecms/a/bangzhuzhongxin/</link>
+<description>新闻中心 / 帮助中心</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2002-2011 DEDECMS. 织梦科技 版权所有 &lt;a href=http://www.dedecms.com target='_blank'&gt;Power by DedeCms&lt;/a&gt;]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[audio元素和video元素的额外属性]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_53.html</link>
+    <description><![CDATA[除了所有媒体类型共同的属性和类函数,audio和video分别具有一个独特的接口.HTMLAudioElement接口只有一个额外的类函数 audio(),这类函数是一个用来创建新audio元素的构造函数,用户可以选择性]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5视频中是如何编码的]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_52.html</link>
+    <description><![CDATA[在加密网络视频时，存在许多不同的变量，例如，一些适用于iOS系统的加密文件可能不适用于Android系统，反之亦然．如果愿意使用命令行进行编 码，FFmpeg则为最佳造反FFmpeg是一种易于]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5中多媒体的使用概念]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_51.html</link>
+    <description><![CDATA[HTML5中多媒体的使用概念 时间：2014-7-6 尽管长芳以来,对于YouTube,Dailymotion和Sound Cloud等网站,音频和视频已经成为Web的一个重要组成部分,但它们一直依赖于第三方插件.对于网站所有者或浏]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[客户端验证API]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_50.html</link>
+    <description><![CDATA[本地表彰验证十分有益,但有时开发人员可能想要通过添加一些自定义验证或创建自己的错误报告框架来实现更多功能.Constraint Validation API具有一系列的对象,属性和类函数,指在为开发人]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[屏幕控件与部件]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_49.html</link>
+    <description><![CDATA[到目前为止,我们所介绍的新元素都基于简单的文本框,但一些表彰元素还提供了更为多样化的屏幕控件,例如HTML4.01中的select和 checkbox.但正如之前所提到的,很多其他构件类型也常被开发人]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5的表单提交方法]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_48.html</link>
+    <description><![CDATA[HTML4.01表单的一个局限性是,所有表单元素,包括提交按钮,都必须包含在form元素中,这意味着,除非使用JavaScript,否则所有元素都必须在标记中依次排列,这限制了它们在页面上的排列格局.]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[自动完成autocomplete]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_47.html</link>
+    <description><![CDATA[autocomplete属性为浏览器设置是否记住曾被输入到输入栏中的历史值,以及是否在以后将这些值提供给用户,这个属性的值为on或off;其默认 值为on,但如果开发人员正在创建一个含有机密表单]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[自动对焦autofocus]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_46.html</link>
+    <description><![CDATA[autofocus属性对于所有输入类型来说都十分常用,它仅在页面被加载时作用于指定元素,例如一个文本输入栏,光标应该已经置于这个输入栏中并为用户 输入做好了准备.autofocus是一种布尔属]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML4的新输入类型]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_45.html</link>
+    <description><![CDATA[在HTML4.01中,部分表彰元素允许用户输入,包括textarea,checkbox和radio,但毫无疑问,其中最常用的表单元素是 input,其type属性的值通常为text,这个元素在专有控件不可用的情况下合用例如,作为电]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5视频中是如何编码的]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140708_5.html</link>
+    <description><![CDATA[在加密网络视频时，存在许多不同的变量，例如，一些适用于iOS系统的加密文件可能不适用于Android系统，反之亦然．如果愿意使用命令行进行编 码，FFmpeg则为最佳造反FFmpeg是一种易于配]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>

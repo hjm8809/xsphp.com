@@ -1,0 +1,299 @@
+#container{
+	width:900px;
+	margin:0 auto;
+}
+
+#header{
+		height:110px;
+		margin-bottom:8px;
+	}
+
+	#top{
+		height:71px;
+	}	
+	#top img{
+		float:left;
+		padding-top:22px;
+	}
+	#search{
+		width:300px;
+		float:right;
+	}
+	#search form{
+		margin-top:30px;
+		width:280px;
+		float:left;
+		height:33px;
+		vertical-align:bottom;
+	}
+
+	.input_srh{		
+		padding-left:20px;
+		background:url(./images/srh_bg.gif) 0 0 no-repeat;
+		width:140px;
+		height:20px;
+		border:1px solid #CBCBCB;
+		line-height: 23px;
+	}
+	.btm_srh{
+		display:block;
+		float:right;
+		width:58px;
+		height:23px;
+		background:url(./images/btn_srh.gif) 0 0 no-repeat;
+		border:none;
+	}
+
+	#nav{	
+		height:35px;
+		background:url(./images/nav_bg.gif) 0 0 repeat-x;
+		border-radius:3px;
+		text-align:center;
+	}
+	#nav li{
+		float:left;
+	}
+	#nav a{
+		display:block;
+		width:100px;
+		height:25px;
+		margin:5px;
+		font:14px/25px "微软雅黑","雅黑",sanserif;
+		color:white;
+		font-weight:bold;
+	}
+	#nav a:hover{
+		background:url(./images/nav_bg.gif) -1 -165px no-repeat;
+		border-radius:5px;
+		border:1px solid #FFC650;
+
+	}
+
+
+#main{
+	overflow:hidden;
+	}
+#lside{
+		width:660px;
+		float:left;
+	}
+	#la{
+		height:255px;
+		margin-bottom:8px;
+	}
+	#la_left{
+		width:270px;
+		float:left;
+	}
+	#la img{
+		padding-bottom:5px;
+	}
+	#la #btm_a{
+		display:block;
+		float:left;
+		width:131px;
+		height:39px;
+		background:url(./images/btn_login.gif);
+		border:none;
+	}
+	#la #btm_b{
+		display:block;
+		float:left;
+		width:131px;
+		height:39px;
+		background:url(./images/btn_login1.gif);
+		border:none;
+		margin-left:3px;
+	}
+	#la_right{
+		width:370px;
+		height:255px;
+		float:right;
+		background:url(./images/hot_bg.gif) 0 0 no-repeat;
+		padding:10px 0 0 10px;
+	}
+	h1{
+		font:18px/22px "微软雅黑","雅黑",sanserif;
+		font-weight:bold;
+		margin:5px 0;
+	}
+	#la_right p{
+		color:gray;
+		font-size: 12px;
+	}
+	#la_right li{
+		padding-left:20px;
+		background:url(./images/li_bg.jpg) -10px -5px no-repeat;
+		font:12px/28px "microsoft yahei",samhei,sanserif;
+	}
+	#lb{
+		height:270px;
+		border:1px solid pink;
+		margin-bottom:8px;
+	}
+	.subtitle{
+		height:26px;
+		padding-left:30px;
+		border-bottom:1px #ddd solid;e
+		margin-bottom:8px;
+	}
+	h2{
+		font:16px/26px "microsoft yahei",samhei,sanserif;
+		font-weight:bold;
+	}
+	#lb .pro{
+		float:left;
+		margin:15px 0 0 20px ;
+	}
+	.pro span{
+		display:block;
+		width:107px;
+		text-align: center;
+		font-size:12px;
+	}
+	
+	#lc_left{
+		width:324px;
+		float:left;
+		border:#eee 1px solid;
+		margin-bottom:8px;
+	}
+	#lc_right{
+		width:324px;
+		float:right;
+		border:#eee 1px solid;
+	}
+	#lc h2{
+		float:left;
+	}
+	.subtitle a{
+		display:block;
+		float:right;
+		padding:0 15px;
+		background:url(./images/icon.gif) 0 -43px no-repeat;
+		font:12px/26px "microsoft yahei",samhei,sanserif;
+	}
+	#lc img{
+		padding:5px 10px;
+		float:left;
+	}
+	#lc h3{
+		font:14px/16px "microsoft yahei",samhei,sanserif;
+		font-weight: bold;
+	}
+	#lc p{
+		margin-top:5px;
+		font:14px/18px "microsoft yahei",samhei,sanserif;
+		color: #858585; 
+	}
+	#lc li{
+		padding-left:20px;
+		background:url(./images/li_bg.jpg) -10px -5px no-repeat;
+		font:12px/28px "microsoft yahei",samhei,sanserif;
+		margin-left:10px;
+	}
+	#lc{
+		margin:0px;
+	}
+#rside{
+		width:230px;
+		float:right;
+	}
+	#rside h2{
+		font:16px/35px "microsoft yahei",samhei,sanserif;
+		font-weight:bold;
+	}
+	#ra{
+		height:255px;
+		background:url(./images/side_bg.gif) 0 0 no-repeat;
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius:5px;
+		border-bottom:1px #ddd solid;
+		margin-bottom:8px;
+	}
+	#ra h1{
+		height:;
+	}
+	#rside .subtitle{
+			border:none;
+			height:30px;
+			font:12px/30px "microsoft yahei","samhei",sanserif;
+	}
+	.ra{
+		padding:10px 10px 18px 70px;
+		height:45px;
+		background:url(./images/icon2.gif) 15px 13px no-repeat;
+		border-bottom:1px #ddd dashed;
+		margin:0 2px;
+	}
+	
+	#ra a{
+		font:12px/14px "微软雅黑","雅黑",sanserif;
+		color:#858585;
+	}
+	#rb{
+		height:433px;
+		background:url(./images/side_bg.gif);
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+		border-bottom:1px #ddd solid;
+		margin-bottom:8px;
+	}
+	.faq{
+		height:71px;
+		border-bottom:1px #ddd dashed;
+		margin:10px 0;
+		padding-right:30px;
+	}
+	#rb a{
+		display:block;
+		padding-left:30px;
+		background:url(./images/icon.gif) 10px -150px no-repeat;
+		margin-bottom:8px;
+		font:12px/14px "microsoft yahei",samhei,sanserif;
+	}
+	#rb p{
+		padding-left:30px;
+		background:url(./images/icon.gif) 10px -200px no-repeat;
+		font:12px/14px "microsoft yahei",samhei,sanserif;
+		color:#666;
+	}
+	#rc{
+		background:url(./images/side_bg.gif) 0 0 no-repeat;
+	}
+	#link{
+		height:112px; 
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+		border-bottom:1px #ddd solid;
+	}
+
+#bottom{
+	height:28px;
+	background:#bbb;
+	padding: 0 200px;
+	margin-bottom:8px;
+}
+#bottom li{
+	float:left;
+}
+#bottom a{
+	display:block;
+	width:60px;
+	margin:0 10px;
+	font:14px/28px "microsoft yahei",samhei,sanserif;
+	color:white;
+	font-weight: bold;
+}
+#footer{
+	height:64px;
+	overflow:hidden;
+}
+address{
+	text-align: center;
+	font:12px/26px "microsoft yahei",samhei,sanserif; 
+	color: gray;
+}
+#last_line{
+	border:none;
+}

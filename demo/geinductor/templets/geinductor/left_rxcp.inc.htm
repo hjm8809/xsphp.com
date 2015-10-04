@@ -1,0 +1,12 @@
+<!-- 热销产品 -->   
+   <div class="part_3">
+       <h2>热销产品</h2>
+     <div class="content">
+      <ul>
+      {dede:arclist pagesize ='4' titlelen='20' typeid='1'  orderby ='pubdate'}
+      <li><a href="[field:arcurl/]"><img src='/demo/[field:picname/]' border='0' width='120' height='120' alt='[field:fulltitle/]'></a><h5><a href="[field:arcurl/]">[field:title/]</a></h5></li>
+	  {/dede:arclist}
+     </ul>  
+     </div>
+     </div> 
+<!-- /热销产品 --> 

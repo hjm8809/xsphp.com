@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>行业新闻</title>
+<link>/demo/dedecms/a/xingyexinwen/</link>
+<description>新闻中心 / 行业新闻</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2002-2011 DEDECMS. 织梦科技 版权所有 &lt;a href=http://www.dedecms.com target='_blank'&gt;Power by DedeCms&lt;/a&gt;]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[WebGL在HTML网站建设中的应用]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_38.html</link>
+    <description><![CDATA[经常看我们网站的已经注意到,当创建csnvas背景的时候,我将其指定为二维背景,这意味着还存在三维背景,用户可以使用名为WebGL的技术访问显 卡,并在浏览器中创建硬件加速的三维对象.这]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[选择SVG或canvas的情况]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_37.html</link>
+    <description><![CDATA[经常看我们网站的已经注意到,当创建csnvas背景的时候,我将其指定为二维背景,这意味着还存在三维背景,用户可以使用名为WebGL的技术访问显 卡,并在浏览器中创建硬件加速的三维对象.这]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[点位符placeholder介绍]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_36.html</link>
+    <description><![CDATA[placeholder属性可以应用于任何与文本类似的输入元素,它使用一个字符串作为其值;当用户没有提供任何值时,这个字符串显示在输入内部,将字符串用于所需值的类型指令,例如,在email输入中]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[拼写检查spellcheck]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_35.html</link>
+    <description><![CDATA[目前,很多浏览器都提供本地化的拼写检查功能,这个功能通常默认作用于textarea元素,但用户可以通过使用spellcheck属性将拼写检查器应 用于任何输入栏,这是一个有些奇特的属性,它是一种]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[数据单datalists使用方法]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_34.html</link>
+    <description><![CDATA[如果元素接受文本输入,如text,url或search元素,开发人员可以为用户提供一张实用的推荐单,浏览器可以根据用户的历史输入来提供这个表单 (这由前面提到的autocomplete属性来控制).但有时,浏]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[如何测量表meter]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_33.html</link>
+    <description><![CDATA[表面上看,meter元素似乎与progress元素一样,事实上,这两个元素在一些浏览器的样式也是相同的,然而它们在主义上有所不同,其 中,progress显示向着目标的移动,而meter显示一个标量测量,例如]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5中如何应用媒体元素]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_32.html</link>
+    <description><![CDATA[要想播放音频或视频文件,需要分别使用audio或video元素,这两个元素很相似,它们具有相同的属性和子元素,而它们的关键区别只在于所传输的媒体类型,在最简单的情况下,这两个元素中的每]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[自动播放的声音在访问性方面存在的缺陷]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_31.html</link>
+    <description><![CDATA[在一些移动设备上,媒体文件不会在其嵌入的页面中播放;反而,它们会被发送到设备上,并在设备本身的媒体播放器框架结构中播放.在这种情况下,autoplay属性被忽略. 如果对一个文件进行了]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网络和准备状态]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_30.html</link>
+    <description><![CDATA[媒体文件的规格通常比较大，且不会一次全部加载，了解文件的当前加载状态以及播放的准备状态是十分有益的． 使用networkState属性可以了解媒体文件的加载状态，这个属性含有四个状]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[Video元素的额外属性]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140708_4.html</link>
+    <description><![CDATA[尽管audio和video元素具有许多相同的属性，但由于vido属性更觉于页面布局，所以它还有一些额外属性，在默认情况下，页面会将视频文件显示为加密时的尺寸，这可以通过height和width属性]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>

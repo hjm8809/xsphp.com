@@ -1,0 +1,4 @@
+缺少以下JS文件:
+jquery.min.js	OK
+pic_scroll.js
+jquery.cookie.js

@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+<channel>
+<title>新闻中心</title>
+<link>/demo/dedecms/a/08/</link>
+<description>新闻中心</description>
+<language>zh-cn</language>
+<generator><![CDATA[Copyright &amp;copy; 2002-2011 DEDECMS. 织梦科技 版权所有 &lt;a href=http://www.dedecms.com target='_blank'&gt;Power by DedeCms&lt;/a&gt;]]></generator>
+<webmaster>desdev@vip.qq.com</webmaster>
+<item>
+    <title><![CDATA[设计一个能通过校验和语义要求的网站]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_63.html</link>
+    <description><![CDATA[页面被校验通过,意思是它包含的代码没有错误(例如:忘记关闭标签);没有不合法的标签和属性(例如:表格中的高度属性heigh,在XHTML中是不合法的).校验可以通过在线的免费软件进行,大家可]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[搜索提示所带来的好处]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_62.html</link>
+    <description><![CDATA[现在搜索提示已经成了常用的应用功能,比如我们在百度里面搜索深圳,就会弹出一个下拉框,框里会有深圳网站建设等与深圳相关的提示词,为什么需要搜索提示 呢?其实,同样的搜索一段内]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网站制作中如何压缩Javascript代码]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_61.html</link>
+    <description><![CDATA[JavaScript是一种解释型语言,其所有的源代码都会被提交到客户端浏览器,因此源代码的体积会影响下载速度,这一点和编译型的语言不一样,要发送 这种情况,一种方案就是压缩JavaScript代码]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[Ajax是否有利于搜索引擎的优化]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_60.html</link>
+    <description><![CDATA[对于Ajax程序员来说,其内容并不一定是和URL一一对应的,要到达具体的内容,通过都要通过一定的Javascript函数来实现内容的展示,而搜索引擎却不会自动去调用这些函数,所以对于一些Ajax页]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[经常查看网站流量统计的意义]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_59.html</link>
+    <description><![CDATA[大家做了一个网站后，通常会加一个流量统计的工具，通过这个工具，站长们可以看到每天这个网站被访问的情况，甚至可以具体查看到被访问的人的IP地址和所在地区。 一般大家由于]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[给网站的每篇新闻一个利于优化排名优化的好标]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_58.html</link>
+    <description><![CDATA[没有流量就没办法让网站产生业绩，如果让网站流量，每位站长可以从小做起，小到每加一篇文章对新闻都会有所要求。下面迅美根据自己多年的实践经验整理一些资料给大家来学习和]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网页代码中body标签有哪里属性]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_57.html</link>
+    <description><![CDATA[body顾名思义就是网页内容的开台标签以/body结束,body标签包含定义整体文档呈现的属性,具体属性参数如下: background:定义背景图片的URL bgcolor:定义背景的颜色 leftmargin:内容的左边距像素数]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网站建设时如何进行项目调试]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_56.html</link>
+    <description><![CDATA[有时候开发的程序出现bug ,但又不能确定出现bug的代码位置,那么就需要跟踪项目运行的进程,按照代码逻辑路线检查运行一遍,这个过程就叫做调试,用VS2005进行项目调试非常简单,接下来我]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[友情链接对网站建设的影响]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140709_55.html</link>
+    <description><![CDATA[友情链接对网站优化的贡献是不可否定的,但是通过各方面的研究与调整,我发现一味的地添加或者交换友情链接对网站的排名影响也是非常大的.最近百度搜索引擎加大了网站的惩处,我司]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[当电源指示灯不亮怎么办]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140709_54.html</link>
+    <description><![CDATA[这种现象属于电源的问题,可通过以下方法找出原因: 1.检查ac线是否连接好; 2.如果服务器的电源系统有主开关,请检查并确保已经打开; 3.检查系统风扇是否转动,如果风扇在转,则可能是主]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[audio元素和video元素的额外属性]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_53.html</link>
+    <description><![CDATA[除了所有媒体类型共同的属性和类函数,audio和video分别具有一个独特的接口.HTMLAudioElement接口只有一个额外的类函数 audio(),这类函数是一个用来创建新audio元素的构造函数,用户可以选择性]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5视频中是如何编码的]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_52.html</link>
+    <description><![CDATA[在加密网络视频时，存在许多不同的变量，例如，一些适用于iOS系统的加密文件可能不适用于Android系统，反之亦然．如果愿意使用命令行进行编 码，FFmpeg则为最佳造反FFmpeg是一种易于]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5中多媒体的使用概念]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_51.html</link>
+    <description><![CDATA[HTML5中多媒体的使用概念 时间：2014-7-6 尽管长芳以来,对于YouTube,Dailymotion和Sound Cloud等网站,音频和视频已经成为Web的一个重要组成部分,但它们一直依赖于第三方插件.对于网站所有者或浏]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[客户端验证API]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_50.html</link>
+    <description><![CDATA[本地表彰验证十分有益,但有时开发人员可能想要通过添加一些自定义验证或创建自己的错误报告框架来实现更多功能.Constraint Validation API具有一系列的对象,属性和类函数,指在为开发人]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[屏幕控件与部件]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_49.html</link>
+    <description><![CDATA[到目前为止,我们所介绍的新元素都基于简单的文本框,但一些表彰元素还提供了更为多样化的屏幕控件,例如HTML4.01中的select和 checkbox.但正如之前所提到的,很多其他构件类型也常被开发人]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5的表单提交方法]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_48.html</link>
+    <description><![CDATA[HTML4.01表单的一个局限性是,所有表单元素,包括提交按钮,都必须包含在form元素中,这意味着,除非使用JavaScript,否则所有元素都必须在标记中依次排列,这限制了它们在页面上的排列格局.]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[自动完成autocomplete]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_47.html</link>
+    <description><![CDATA[autocomplete属性为浏览器设置是否记住曾被输入到输入栏中的历史值,以及是否在以后将这些值提供给用户,这个属性的值为on或off;其默认 值为on,但如果开发人员正在创建一个含有机密表单]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[自动对焦autofocus]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_46.html</link>
+    <description><![CDATA[autofocus属性对于所有输入类型来说都十分常用,它仅在页面被加载时作用于指定元素,例如一个文本输入栏,光标应该已经置于这个输入栏中并为用户 输入做好了准备.autofocus是一种布尔属]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML4的新输入类型]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140709_45.html</link>
+    <description><![CDATA[在HTML4.01中,部分表彰元素允许用户输入,包括textarea,checkbox和radio,但毫无疑问,其中最常用的表单元素是 input,其type属性的值通常为text,这个元素在专有控件不可用的情况下合用例如,作为电]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网站建设提供源代码的好处]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140709_44.html</link>
+    <description><![CDATA[首先需要给大家声明的是,深圳市迅美科技有限公司给客户定制设计的网站版权归客户方所有,如果客户方需要源代码的,迅美科技会提供源代码给客户方. 近日,我司遇到很多客户想改版网]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[选择XHTML制作网页的10个理由]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140709_43.html</link>
+    <description><![CDATA[1.XHTML是当前用来代替HTML 4.0标记语言的标准; 2.XHTML就是为和其他基于XML的标记语言,应用程序以及协议进行良好的交互工作而设计的,这正是HTML缺少的优点; 3.XHTML比HTML有更好的一致性,所以]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网页代码的标准就是统一各个浏览器的兼容]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140709_42.html</link>
+    <description><![CDATA[WEB标准组织(Wasp)成立于1998年,起初的目的是说服Netscape,Microsoft和其他浏览器开发商彻底支持网页编码统一标准,经过 长期的坚持不懈努力以及有效的策略,最终使得浏览器开发商同意WEB标]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[迅美科技专注于建设符合WEB标准的网站]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140709_41.html</link>
+    <description><![CDATA[为了使网站避免被淘汰的困境并适应新的需要,设计师和开发者必须学习和使用Web标准,网站所有者和管理者必须清楚Web标准为什么对他们的业务有帮助. Web标准本身并不会宣传自己,普通]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[深圳ASP.NET语言网站建设]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140709_40.html</link>
+    <description><![CDATA[ASP.NET是伴随着软件的.net平台而产生的一种先进的WEB开发技术,它将模块式开发的思想应用到WEB开发的领域,提供了许多WEB服务器控 件,通过对这些控件的操作,能够直接生成HTML代码,从而将]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[深圳PHP语言网站建设]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140709_39.html</link>
+    <description><![CDATA[PHP语言和JSP类似,也是将代码标记嵌入到HTML页面中,当服务器端对页面进行处理时,它能够解析并执行这些代码,然后将输出的内容嵌入到HTML页面中,从而达到生成动态页面的目的. PHP能够普]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[WebGL在HTML网站建设中的应用]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_38.html</link>
+    <description><![CDATA[经常看我们网站的已经注意到,当创建csnvas背景的时候,我将其指定为二维背景,这意味着还存在三维背景,用户可以使用名为WebGL的技术访问显 卡,并在浏览器中创建硬件加速的三维对象.这]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[选择SVG或canvas的情况]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_37.html</link>
+    <description><![CDATA[经常看我们网站的已经注意到,当创建csnvas背景的时候,我将其指定为二维背景,这意味着还存在三维背景,用户可以使用名为WebGL的技术访问显 卡,并在浏览器中创建硬件加速的三维对象.这]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[点位符placeholder介绍]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_36.html</link>
+    <description><![CDATA[placeholder属性可以应用于任何与文本类似的输入元素,它使用一个字符串作为其值;当用户没有提供任何值时,这个字符串显示在输入内部,将字符串用于所需值的类型指令,例如,在email输入中]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[拼写检查spellcheck]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_35.html</link>
+    <description><![CDATA[目前,很多浏览器都提供本地化的拼写检查功能,这个功能通常默认作用于textarea元素,但用户可以通过使用spellcheck属性将拼写检查器应 用于任何输入栏,这是一个有些奇特的属性,它是一种]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[数据单datalists使用方法]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_34.html</link>
+    <description><![CDATA[如果元素接受文本输入,如text,url或search元素,开发人员可以为用户提供一张实用的推荐单,浏览器可以根据用户的历史输入来提供这个表单 (这由前面提到的autocomplete属性来控制).但有时,浏]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[如何测量表meter]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_33.html</link>
+    <description><![CDATA[表面上看,meter元素似乎与progress元素一样,事实上,这两个元素在一些浏览器的样式也是相同的,然而它们在主义上有所不同,其 中,progress显示向着目标的移动,而meter显示一个标量测量,例如]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5中如何应用媒体元素]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_32.html</link>
+    <description><![CDATA[要想播放音频或视频文件,需要分别使用audio或video元素,这两个元素很相似,它们具有相同的属性和子元素,而它们的关键区别只在于所传输的媒体类型,在最简单的情况下,这两个元素中的每]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[自动播放的声音在访问性方面存在的缺陷]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_31.html</link>
+    <description><![CDATA[在一些移动设备上,媒体文件不会在其嵌入的页面中播放;反而,它们会被发送到设备上,并在设备本身的媒体播放器框架结构中播放.在这种情况下,autoplay属性被忽略. 如果对一个文件进行了]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[网络和准备状态]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140709_30.html</link>
+    <description><![CDATA[媒体文件的规格通常比较大，且不会一次全部加载，了解文件的当前加载状态以及播放的准备状态是十分有益的． 使用networkState属性可以了解媒体文件的加载状态，这个属性含有四个状]]></description>
+    <pubDate>2014-07-09</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[迅美对于开网店的一些经验分享]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140708_29.html</link>
+    <description><![CDATA[由于B2C市场的兴趣,现在开网店的人越来越多,那么在关于店铺运营的时候便会产生很多各式各样的问题,通过迅美网络公司多年的运营经验,可以同大家分享一下,在日常打理网店会遇到的一]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[如何利用好友情链接来推广网站]]></title>
+    <link>/demo/dedecms/a/wangzhanyouhua/20140708_6.html</link>
+    <description><![CDATA[虽然友情链接的缺点很多,介理迅美还是想把这一个非常有用的推广介绍给大家,希望大家能好好地利用。 无论大网站，还是小网站，友情链接都少不 了。友情链接除了带来流量，提高网]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>网站优化</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[HTML5视频中是如何编码的]]></title>
+    <link>/demo/dedecms/a/bangzhuzhongxin/20140708_5.html</link>
+    <description><![CDATA[在加密网络视频时，存在许多不同的变量，例如，一些适用于iOS系统的加密文件可能不适用于Android系统，反之亦然．如果愿意使用命令行进行编 码，FFmpeg则为最佳造反FFmpeg是一种易于配]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>帮助中心</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[Video元素的额外属性]]></title>
+    <link>/demo/dedecms/a/xingyexinwen/20140708_4.html</link>
+    <description><![CDATA[尽管audio和video元素具有许多相同的属性，但由于vido属性更觉于页面布局，所以它还有一些额外属性，在默认情况下，页面会将视频文件显示为加密时的尺寸，这可以通过height和width属性]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>行业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[如何预编译WEB站点]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140708_3.html</link>
+    <description><![CDATA[除了把所有的文件复制到目标WEB站点之外,还可以预编译WEB站点,通过预编译,会在文件复制到目标WEB站点之前创建程序集,这样,源文件就不必复制到目标WEB站点上了, 下面的救命将使用VS发]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[2014年迅美端午节工作安排]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140708_2.html</link>
+    <description><![CDATA[一年一度中华传统佳节端午节即将来临,迅美科技对2014年端午节作出工作安排,端午节期间我司放假三天即5月31日,6月1日,6月2日三天放假. 在此放假的时间里如果有客户需要网站调整的,我]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+<item>
+    <title><![CDATA[做网站看重的是质量与服务]]></title>
+    <link>/demo/dedecms/a/qiyexinwen/20140708_1.html</link>
+    <description><![CDATA[在高速发展的今天,深圳创造了很好的创业条件,特别对于虚拟的服务产品来说,像400电话和网络公司这块.一张桌子,一台电脑就可以开起一个公司. 这种情况在深圳的各行各业里都非常多]]></description>
+    <pubDate>2014-07-08</pubDate>
+    <category>企业新闻</category>
+    <author>admin</author>
+    <comments>未知</comments>
+</item>
+
+</channel>
+</rss>
